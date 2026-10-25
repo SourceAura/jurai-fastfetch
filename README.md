@@ -1,5 +1,7 @@
 # Jurai Fastfetch
 
+> **Part of [Jurai](https://github.com/SourceAura/jurai-suite)** — a living desktop ecosystem by 0xSrcAura. This piece is one of its public doors.
+
 The Jurai suite's visiting card — a fastfetch preset for Ryoku.
 
 A faceted prism tree under a broken spectrum ring, the seal 樹
