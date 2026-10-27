@@ -1,4 +1,4 @@
-// Jurai — the suite's visiting card.
+// Jurai: the suite's visiting card.
 // ryoku:recolor keys=primary title=foreground output=onSurface separator=tertiary
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",

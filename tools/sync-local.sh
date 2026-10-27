@@ -1,14 +1,8 @@
 #!/usr/bin/env bash
-# sync-local.sh — seat Jurai Fastfetch in the local RyoStore catalogue
+# sync-local.sh: seat Jurai Fastfetch in the local RyoStore catalogue
 # tree and reinstall it, for the development loop.
-#
-#   repo (this folder's parent tree, as fastfetch/jurai-fastfetch)
-#     -> ~/Documents/GitHub/ryostore-local (the stable local catalogue)
-#     -> ryostore install fastfetch jurai-fastfetch
-#
-# The local tree is the durable seat: the file:// override in
-# ~/.config/ryoku/ryostore-base points there, and the tree is never
-# branch-switched, so a store refresh cannot unseat the preset.
+# The local tree is never branch-switched, so a store refresh cannot
+# unseat the preset.
 set -eu
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
@@ -16,7 +10,7 @@ STAGE="$HOME/Documents/GitHub/ryostore-local"
 PRODUCT="$STAGE/fastfetch/jurai-fastfetch"
 
 if [ ! -f "$HOME/.config/ryoku/ryostore-base" ]; then
-    echo "sync-local: no ryostore-base override — the store is serving the published catalogue; refusing" >&2
+    echo "sync-local: no ryostore-base override: the store is serving the published catalogue; refusing" >&2
     exit 1
 fi
 
