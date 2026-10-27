@@ -40,7 +40,7 @@ manifest = {
     "schema": 1,
     "id": "jurai-fastfetch",
     "category": "fastfetch",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "destination": "ryoku/fastfetch/jurai-fastfetch",
     "files": files,
 }
