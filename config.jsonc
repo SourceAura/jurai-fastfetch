@@ -112,6 +112,7 @@
     },
     "break",
     {
+      "key": " ",
       "type": "command",
       "text": "$HOME/.local/bin/insei-palette"
     },
