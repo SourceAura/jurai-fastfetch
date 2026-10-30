@@ -112,9 +112,8 @@
     },
     "break",
     {
-      "type": "colors",
-      "symbol": "circle",
-      "paddingLeft": 2
+      "type": "command",
+      "text": "$HOME/.local/bin/insei-palette"
     },
     "break"
   ]
