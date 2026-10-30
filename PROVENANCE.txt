@@ -1,11 +1,11 @@
-Jurai Fastfetch: provenance
+Insei-fastfetch: provenance
 
-Designed by 0xSrcAura for the Jurai suite (2026). The voice,
-the colours (the house prism, cyan #22D3EE to violet
-#A78BFA, with the Kasugai priority colours for percents),
-the emblem (a faceted prism tree under a broken spectrum
-ring, the seal 樹 pressed at its corner; original artwork
-created for this preset), and the identity line are
-original to Jurai. The structure follows the fastfetch
-preset grammar shared by the whole shelf. No Ryoku Team
-assets.
+Designed by 0xSrcAura in 2026, first for the Jurai suite;
+it is Insei's now, kept and updated as part of her. The
+voice, the colours (the house prism, cyan #22D3EE to
+violet #A78BFA, with the Kasugai priority colours for
+percents), the emblem (a faceted prism tree under a broken
+spectrum ring, the seal 樹 pressed at its corner; original
+artwork created for this preset), and the identity line
+are original work. The structure follows the fastfetch
+preset grammar. No Ryoku Team assets.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# sync-local.sh: seat Jurai Fastfetch in the local RyoStore catalogue
+# sync-local.sh: seat Insei-fastfetch in the local RyoStore catalogue
 # tree and reinstall it, for the development loop.
 # The local tree is never branch-switched, so a store refresh cannot
 # unseat the preset.
@@ -7,7 +7,7 @@ set -eu
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 STAGE="$HOME/Documents/GitHub/ryostore-local"
-PRODUCT="$STAGE/fastfetch/jurai-fastfetch"
+PRODUCT="$STAGE/fastfetch/insei-fastfetch"
 
 if [ ! -f "$HOME/.config/ryoku/ryostore-base" ]; then
     echo "sync-local: no ryostore-base override: the store is serving the published catalogue; refusing" >&2
@@ -26,7 +26,7 @@ path, digest = sys.argv[1], sys.argv[2]
 doc = json.load(open(path))
 key = next(k for k, v in doc.items() if isinstance(v, list))
 for row in doc[key]:
-    if row["id"] == "jurai-fastfetch":
+    if row["id"] == "insei-fastfetch":
         row["manifestSha256"] = digest
 json.dump(doc, open(path, "w"), indent=2, ensure_ascii=False)
 open(path, "a").write("\n")
@@ -35,11 +35,11 @@ PY
 
 git -C "$STAGE" add -A
 git -C "$STAGE" -c user.email=local@jurai -c user.name=jurai-local \
-    commit -qm "jurai-fastfetch: sync from repo" || true
+    commit -qm "insei-fastfetch: sync from repo" || true
 
-"$HOME/.local/bin/jurai-storecheck" fastfetch jurai-fastfetch
+"$HOME/.local/bin/jurai-storecheck" fastfetch insei-fastfetch
 
-ryostore remove fastfetch jurai-fastfetch >/dev/null 2>&1 || true
-rm -rf "$HOME/.local/share/ryoku/fastfetch/jurai-fastfetch"
-ryostore install fastfetch jurai-fastfetch
-echo "sync-local: jurai-fastfetch seated from $REPO"
+ryostore remove fastfetch insei-fastfetch >/dev/null 2>&1 || true
+rm -rf "$HOME/.local/share/ryoku/fastfetch/insei-fastfetch"
+ryostore install fastfetch insei-fastfetch
+echo "sync-local: insei-fastfetch seated from $REPO"

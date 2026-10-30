@@ -6,7 +6,7 @@ Usage: build-manifest.py <product-dir>
 
 The store folder for a fastfetch preset is flat:
 
-    fastfetch/jurai-fastfetch/
+    fastfetch/insei-fastfetch/
         config.jsonc, emblem.png   the preset and its face
         LICENSE, PROVENANCE.txt
         preview.webp                the shelf picture (not installed)
@@ -38,10 +38,10 @@ for name in sorted(os.listdir(root)):
     })
 manifest = {
     "schema": 1,
-    "id": "jurai-fastfetch",
+    "id": "insei-fastfetch",
     "category": "fastfetch",
     "version": "1.0.2",
-    "destination": "ryoku/fastfetch/jurai-fastfetch",
+    "destination": "ryoku/fastfetch/insei-fastfetch",
     "files": files,
 }
 out = json.dumps(manifest, indent=2, ensure_ascii=False) + "\n"

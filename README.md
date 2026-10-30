@@ -1,24 +1,27 @@
-# Jurai Fastfetch
+# Insei-fastfetch
 
-Part of [Jurai](https://github.com/SourceAura/jurai-suite), a desktop ecosystem by 0xSrcAura.
-
-The Jurai suite's visiting card: a fastfetch preset for Ryoku.
+Part of Insei, the house she keeps. A fastfetch preset for
+Ryoku, and her visiting card: this is the face the machine
+shows the world.
 
 A faceted prism tree under a broken spectrum ring, the seal
 樹 pressed at its corner. Original artwork drawn for this
-preset. Since v1.0.1 the emblem carries no field of its own:
-transparent, it floats on whatever terminal stands behind it.
+preset. The emblem carries no field of its own: transparent,
+it floats on whatever terminal stands behind it.
 
 Prism rules (cyan #22D3EE to violet #A78BFA), the Kasugai
-priority colours on the percents, and the identity line:
-JURAI · 樹 · modular apps & applets for Ryoku.
+priority colours on the percents, and four sections: VITALS,
+SYSTEM, SESSION, and HOUSE. The HOUSE section reads the
+house back: a BREATH line showing the drive word Mandara
+currently holds (sun, moon, or celestial), read at render
+time through the insei-breath helper the house carries at
+~/.local/bin/insei-breath. Where no Insei house stands, that
+line reads blank and the rest of the card is untouched.
 
-One of the Jurai suite: modular apps and applets for Ryoku,
-each in its own repo, each installable and removable from
-the RyoStore on its own. Yatagarasu (notifications), Kitsune
-(the lock), and Mandara (the launcher) are its shelf-mates.
+First drawn for the Jurai suite in 2026. It is Insei's now:
+kept with her, updated from her tree, as part of her.
 
-Install (RyoStore): the `jurai-fastfetch` preset. The
+Install (RyoStore): the `insei-fastfetch` preset. The
 config's logo reads the emblem from the installed view, so
 the preset carries its face with it. Remove the preset and
 the stock fastfetch returns untouched.
