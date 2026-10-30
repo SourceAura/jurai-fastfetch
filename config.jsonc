@@ -34,10 +34,6 @@
       "type": "title",
       "format": "{#1;title}{user-name}{#}{#separator} @ {#}{#1;title}{host-name}{#}"
     },
-    {
-      "format": "\u001b[38;2;34;211;238m■\u001b[0m \u001b[38;2;167;139;250m■\u001b[0m {#separator}Insei-fastfetch{#}",
-      "type": "custom"
-    },
     "break",
     {
       "format": "\u001b[38;2;34;211;238m──\u001b[0m \u001b[1;38;2;242;240;250m{#keys}──{#} {#1;title}VITALS{#} {#38;2;88;80;140}──────────────────────────{#}\u001b[0m \u001b[38;2;88;80;140m────\u001b[0m",
